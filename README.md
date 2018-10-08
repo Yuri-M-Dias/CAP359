@@ -23,7 +23,7 @@ The available data consists of several months and years of one of INPE's operati
 For the motif discovery part, the [jmotif-R](https://github.com/jMotif/jmotif-R) package will be used, as it already implements the relevant [SAX](http://www.cs.ucr.edu/~eamonn/SAX.htm) algorithms and support algorithms.
 Additionally, the [DTW technique](http://dtw.r-forge.r-project.org/) will be used to validate the found discords in relation to the rest of the time series.
 
-**Needs the algorithms for the association rule mining part**
+The association rule mining algorithm that will be used is the standard implementation of the Apriori algorithm available in the [WEKA software tool](https://www.cs.waikato.ac.nz/ml/weka/)
 
 # Results and timeline
 
